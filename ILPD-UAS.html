@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>DEPLOYMENT &#8212; Indian Liver Patient Disease</title>
+    <title>INDIAN LIVER PATIENT DATASET &#8212; Indian Liver Patient Disease</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -181,7 +181,7 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">DEPLOYMENT</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">INDIAN LIVER PATIENT DATASET</a></li>
 
 
 
@@ -243,7 +243,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+      <li><a href="https://github.com/nurulrizka/ilpd-uas" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -260,7 +260,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FILPD-UAS.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/nurulrizka/ilpd-uas/issues/new?title=Issue%20on%20page%20%2FILPD-UAS.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -374,7 +374,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>DEPLOYMENT</h1>
+    <h1>INDIAN LIVER PATIENT DATASET</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -384,9 +384,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">DEPLOYMENT</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#indian-liver-patient-dataset">INDIAN LIVER PATIENT DATASET</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati">TUJUAN ANALISIS : MENENTUKAN APAKAH PASIEN MENDERITA PENYAKIT HATI</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">INDIAN LIVER PATIENT DATASET</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati-liver">TUJUAN ANALISIS : MENENTUKAN APAKAH PASIEN MENDERITA PENYAKIT HATI (LIVER)</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-understanding">DATA UNDERSTANDING</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-data-from-web-to-dataframe">Collecting data from web to dataframe</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#importing-data-from-api-to-dataframe">Importing data from API to dataframe</a></li>
@@ -418,11 +417,13 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-k-nearest-neighbors-knn-dengan-code-python">Membuat Model K-Nearest Neighbors (KNN) dengan Code Python</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-classifier-dengan-konsep-ensemble-learning-stacking">Membuat Model Classifier dengan Konsep Ensemble Learning Stacking</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ensemble-learning-stacking-menggunakan-library-sklearn">Ensemble Learning Stacking Menggunakan Library Sklearn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-random-forest">Membuat Model Random Forest</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-ensemble-bagging-classifier">Membuat Model Ensemble Bagging Classifier</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#kesimpulan">KESIMPULAN</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#keputusan">Keputusan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#deployment">DEPLOYMENT</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluasi">EVALUASI</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#implementasi">IMPLEMENTASI</a></li>
 </ul>
 
             </nav>
@@ -435,32 +436,33 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="deployment">
-<h1>DEPLOYMENT<a class="headerlink" href="#deployment" title="Link to this heading">#</a></h1>
-<p>Link Menuju Website :</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="indian-liver-patient-dataset">
+  <section class="tex2jax_ignore mathjax_ignore" id="indian-liver-patient-dataset">
 <h1>INDIAN LIVER PATIENT DATASET<a class="headerlink" href="#indian-liver-patient-dataset" title="Link to this heading">#</a></h1>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati">
-<h1>TUJUAN ANALISIS : MENENTUKAN APAKAH PASIEN MENDERITA PENYAKIT HATI<a class="headerlink" href="#tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati" title="Link to this heading">#</a></h1>
-<p>Mendiagnosa apakah seseorang menderita penyakit hati dengan menggunakan dataset dari UCI (<a class="reference external" href="https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset">https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset</a>}</p>
-<p>Kematian akibat kerusakan jaringan pada liver terus meningkat seiring dengan meningkatnya angka konsumsi alkohol, infeksi hepatitis kronis, dan penyakit hati terkait obesitas. Meskipun angka kematian akibat penyakit ini tinggi, namun dampaknya tidak merata di semua sub-populasi. Deteksi dini suatu patologi merupakan faktor penentu hasil akhir pasien, namun tampaknya diagnosis dini patologi hati kurang berfokus pada pasien wanita. Kumpulan data ini terdiri dari 584 catatan pasien yang dikumpulkan dari Timur Laut Andhra Pradesh, India.</p>
+<section class="tex2jax_ignore mathjax_ignore" id="tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati-liver">
+<h1>TUJUAN ANALISIS : MENENTUKAN APAKAH PASIEN MENDERITA PENYAKIT HATI (LIVER)<a class="headerlink" href="#tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati-liver" title="Link to this heading">#</a></h1>
+<p>Mendiagnosa apakah seorang pasien menderita penyakit hati dengan menggunakan dataset dari UCI { <a class="reference external" href="https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset">https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset</a> }</p>
+<p>Kematian akibat kerusakan jaringan pada liver terus meningkat seiring dengan meningkatnya angka konsumsi alkohol, infeksi hepatitis kronis, dan penyakit hati terkait obesitas. Meskipun angka kematian akibat penyakit ini tinggi, namun dampaknya tidak merata di semua sub-populasi. Deteksi dini suatu patologi merupakan faktor penentu hasil akhir pasien, namun tampaknya diagnosis dini patologi hati kurang berfokus pada pasien wanita. Kumpulan data ini terdiri dari 583 catatan pasien yang dikumpulkan dari Timur Laut Andhra Pradesh, India.</p>
 <p>Dengan analisis ini, diharapkan dapat menentukan apakah seorang pasien menderita penyakit hati berdasarkan informasi tentang beberapa penanda biokimia, termasuk albumin dan enzim lain yang diperlukan untuk metabolisme.</p>
 <ul class="simple">
 <li><p>Berdasarkan penelitian pada Paper yang berjudul “Klasifikasi Penyakit Liver dengan Menggunakan Metode Decision Tree”, bahwa penanganan pasien pada tahap awal sangatlah penting untuk diidentifikasi secara dini guna mencegah  penyakit liver yang merupakan penyakit berbahaya. Faktor yang menjadi indikator terdiri usia, jenis kelamin, total bilirubin, direct bilirubin, alkaline phosphotase, aspartate aminotransferase, total protein, albumin, &amp; albumin and globulin ratio. Dari faktor tersebut dapat diklasifikasikan apakah seseorang menderita penyakit hati.</p></li>
 </ul>
 <ul class="simple">
-<li><p>Referensi Terakhir yang kami gunakan yaitu jurnal yang berjudul : “Pengetahuan Kesehatan Reproduksi dan Menikah Dini pada Remaja Putri” yang diterbitkan oleh :
-Choirunisa Giska Adelia
+<li><p>Referensi lain yaitu:
+Dr. Rizal Fadli
 Universitas Airlangga Surabaya
-Link : <a class="reference external" href="https://journal.ibrahimy.ac.id/index.php/oksitosin/article/view/2534">https://journal.ibrahimy.ac.id/index.php/oksitosin/article/view/2534</a>
-Tentang BLA BLA BLA</p></li>
+Link : <a class="reference external" href="https://www.halodoc.com/kesehatan/cek-bilirubin-total">https://www.halodoc.com/kesehatan/cek-bilirubin-total</a>
+Tentang cara mengecek bilirubin total</p></li>
 </ul>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="data-understanding">
 <h1>DATA UNDERSTANDING<a class="headerlink" href="#data-understanding" title="Link to this heading">#</a></h1>
-<p>Analisis terhadap fitur yang digunakan untuk menentukan apakah pasien menderita penyakit hati:</p>
+<p>Oleh karena itu, saya mengambil dataset yang sesuai dengan faktor yang menjadi indikator seperti rujukan di atas, yaitu UCI Machine Learning tentan Indian Liver Patient Dataset yang dapat diakses melalui: <a class="reference external" href="https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset">https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset</a></p>
+<p>Penjelasan teori Attribute dalam data :</p>
+<p>Referensi dari buku yang berjudul “Data Mining Concepts and Techniques” edisi ketiga. Link : The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann</p>
+<p>Dalam buku tersebut menjelaskan bahwa : Atribut adalah bidang data, yang mewakili karakteristik atau fitur objek data. Kata atribut, dimensi, fitur, dan variabel sering digunakan secara bergantian dala literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin literatur cenderung menggunakan istilah fitur, sedangkan ahli statistik lebih memilih istilah variabel. Data profesional pertambangan dan basis data biasanya menggunakan istilah atribut, dan kami melakukannya di sini demikian juga. Atribut yang mendeskripsikan objek pelanggan dapat mencakup, misalnya, ID pelanggan, Nama dan alamat. Nilai yang diamati untuk atribut tertentu dikenal sebagai observasi. Satu set
+Atribut yang digunakan untuk mendeskripsikan objek tertentu disebut vektor atribut (atau vektor fitur). Distribusi data yang melibatkan satu atribut (atau variabel) disebut univariat. Distribusi bivariat melibatkan dua atribut, dan seterusnya.</p>
+<p>Data tersebut berfokus pada faktor yang menjadi Indikator yaitu Age, Gender, TB,  DB, Alkphos, SGPT, SGOT TP, ALB, A/G ratio. Analisis terhadap fitur yang digunakan untuk menentukan apakah pasien menderita penyakit hati:</p>
 <ul class="simple">
 <li><p>Fitur : “Age” dengan tipe data numerik, adalah usia pasien dalam tahun ketika di cek</p></li>
 </ul>
@@ -468,43 +470,30 @@ Tentang BLA BLA BLA</p></li>
 <li><p>Fitur : “Gender” dengan tipe data binary, adalah jenis kelamin pasien ketika di cek</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “TB” dengan tipe data numerik, adalah total bilirubin tambah cara cek</p></li>
+<li><p>Fitur : “TB” dengan tipe data numerik, adalah total bilirubin yang dicek menggunakan sampel darah yang diambil dari pembuluh darah vena di lengan melalui jarum kecil kemudian ditempelkan pada tabung kecil, di mana darah akan dikumpulkan kemudian dikirim ke laboratorium untuk dianalisis</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “DB” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “DB” dengan tipe data numerik, adalah direct dilirubin. Untuk mengecek bilirubin direct, pasien harus berpuasa  empat jam sebelum tes. Sampel darah diambil dari vena di lengan dan dianalisis di laboratorium. Hasil tes menunjukkan kadar bilirubin direk yang normalnya berkisar antara 0-0,4 mg/dL pada orang dewasa</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “Alkphos” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “Alkphos” dengan tipe data numerik, adalah alkaline phosphatase (ALP). Untuk mengecek kadar alkaline phosphatase (ALP), pasien perlu berpuasa 10-12 jam sebelum tes, sampel darah diambil dari vena di lengan dan dikirim ke laboratorium untuk analisis. Nilai normal ALP orang dewasa biasanya hingga 120 IU/L.</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “SGPT” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “SGPT” dengan tipe data numerik, adalah Serum Glutamic Pyruvic Transaminase. Untuk mengeceknya pasien akan  berpuasa beberapa jam sebelum tes, jarum kecil dimasukkan ke vena di lengan untuk mengumpulkan darah ke tabung khusus. Sampel darah dikirim ke laboratorium untuk dianalisis.</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “SGOT” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “SGOT” dengan tipe data numerik, adalah Serum Glutamic Oxaloacetic Transaminase. Proses pengukurannya mirip dengan pengambilan sampel untuk tes darah lainnya.</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “TP” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “TP” dengan tipe data numerik, adalah total protein yang diukur menggunakan metode biuret dan alat spektrofotometer UV-Vis, tabung reaksi, larutan standar protein, larutan biuret, dan larutan buffer. Caranya mencampurkan sampel dengan larutan biuret dan larutan buffer, lalu pengukuran absorbansi menggunakan spektrofotometer</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “ALB” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “ALB” dengan tipe data numerik, adalah albumin yang diukur menggunakan metode colorimetri, larutan bromkresol hijau (BCG), dan alat spektrofotometer UV-Vis, tabung reaksi, larutan BCG, dan larutan buffer. Prosesnya mencampurkan sampel dengan larutan BCG, kemudian absorbansi diukur menggunakan spektrofotometer</p></li>
 </ul>
 <ul class="simple">
-<li><p>Fitur : “A/G ratio” dengan tipe data numerik, adalah</p></li>
+<li><p>Fitur : “A/G ratio” dengan tipe data numerik, adalah A/G (albumin/globulin) ratio dalam yang diukur menggunakan alat spektrofotometer UV-Vis untuk pengukuran absorbansi, tabung reaksi, larutan buffer, dan larutan reagen. Dimulai pengukuran absorbansi, konsentrasi albumin dan globulin dihitung menggunakan rumus sesuai absorbansi. A/G ratio membagi konsentrasi albumin dan konsentrasi globulin</p></li>
 </ul>
-<p>Dalam buku tersebut menjelaskan bahwa : Atribut adalah bidang data, yang mewakili karakteristik atau fitur objek data. Kata atribut, dimensi, fitur, dan variabel sering digunakan secara bergantian dalam
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin
-literatur cenderung menggunakan istilah fitur, sedangkan ahli statistik lebih memilih istilah variabel. Data
-profesional pertambangan dan basis data biasanya menggunakan istilah atribut, dan kami melakukannya di sini
-demikian juga. Atribut yang mendeskripsikan objek pelanggan dapat mencakup, misalnya, ID pelanggan,
-Nama dan alamat. Nilai yang diamati untuk atribut tertentu dikenal sebagai observasi. Satu set
-Atribut yang digunakan untuk mendeskripsikan objek tertentu disebut vektor atribut (atau vektor fitur). Distribusi data yang melibatkan satu atribut (atau variabel) disebut univariat.
-Distribusi bivariat melibatkan dua atribut, dan seterusnya.</p>
+<p>Dalam buku tersebut dijelaskan bahwa : Atribut adalah bidang data yang mewakili karakteristik suatu data. Kata atribut, dimensi, fitur, dan variabel sering digunakan secara bergantian dalam  literatur. Istilah dimensi umumnya digunakan dalam data warehousing. Pembelajaran mesin literatur cenderung menggunakan istilah fitur, sedangkan ahli statistik lebih memilih istilah variabel. Data profesional pertambangan dan basis data menggunakan istilah atribut. Nilai yang diamati untuk atribut tertentu dikenal sebagai observasi. Satu set Atribut yang digunakan untuk mendeskripsikan objek tertentu disebut vektor atribut (atau vektor fitur). Distribusi data yang melibatkan satu atribut (atau variabel) disebut univariat. Distribusi bivariat melibatkan dua atribut, dan seterusnya.</p>
 <section id="collecting-data-from-web-to-dataframe">
 <h2>Collecting data from web to dataframe<a class="headerlink" href="#collecting-data-from-web-to-dataframe" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
@@ -827,7 +816,7 @@ Note: you may need to restart the kernel to use updated packages.
 <ul class="simple">
 <li><p>Numeric attributes berarti atribut kuantitatif yang diukur dalam nilai integer atau real.</p></li>
 </ul>
-<p>Mengamati secara langsung dari data yang diperoleh dari Maternal Health Risk dataset dan mendeskripsikan langsung jumlah kolom, nama kolom, jumlah data, missing values, dan type data dari setiap kolom data tersebut</p>
+<p>Mengamati secara langsung dari data yang diperoleh dari ILPD dan mendeskripsikan langsung jumlah kolom, nama kolom, jumlah data, missing values, dan type data dari setiap kolom data tersebut</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -1013,12 +1002,9 @@ memory usage: 54.8+ KB
 </table>
 </div></div></div>
 </div>
-<p>Dari hasil kode diatas yang merupakan tabel dari dataset, kita bisa menyimpulkan bahwa data ini memiliki 1014 baris dan 8 kolom</p>
-<p>Untuk fitur dari dataset tersebut ada 6 yaitu seperti yang disebutkan diatas: Age, SystolicBP, DiastolicBP, BS, BodyTemp, HeartRate. Sedangkan untuk targetnya adalah RiskLevel.</p>
-<p>untuk menganalisis faktor risiko ibu hamil</p>
-<p>Penjelasan dari setiap fitur yang ada pada tabel diatas:</p>
+<p>Dari hasil kode diatas yang merupakan tabel dari dataset, kita bisa menyimpulkan bahwa data ini memiliki 583 baris dan 11 kolom. Untuk fitur dari dataset tersebut ada 10 yaitu seperti yang disebutkan diatas: Age, Gender, total_blb, direct_blb, alkaline, alamine, aspartate, total protein, albumin, ag_ratio.</p>
 <ul class="simple">
-<li><p>Target : “RiskLevel” dengan tipe data Categorical, adalah prediksi tingkat risiko ketika dalam masa kehamilan dengan mempertimbangkan fitur sebelumnya.</p></li>
+<li><p>Target : “liver_disease” dengan tipe data Binary, adalah prediksi apakah pasien menderita penyakit hati dengan mempertimbangkan fitur sebelumnya.</p></li>
 </ul>
 <p>Mengimport library yang diperlukan untuk tahap-tahap yang akan dilakukan selanjutnya</p>
 <div class="cell docutils container">
@@ -1067,11 +1053,11 @@ Note: you may need to restart the kernel to use updated packages.
 </div>
 </div>
 <ul class="simple">
-<li><p>Persentase dan jumlah dari Risk Level yang disajikan dalam diagram pie dan diagram batang</p></li>
+<li><p>Persentase dan jumlah dari liver disease yang disajikan dalam diagram pie dan diagram batang</p></li>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Definisi warna dan urutan risiko</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Definisi warna dan urutan liver disease</span>
 <span class="n">p_colors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">]</span>
 <span class="n">liver_disease</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Yes&quot;</span><span class="p">,</span> <span class="s2">&quot;No&quot;</span><span class="p">]</span>
 
@@ -1090,7 +1076,7 @@ Note: you may need to restart the kernel to use updated packages.
 <img alt="_images/e669e9b01ecf6391c2b6cf6d911cd6b438a72e75b4fecd841b4da6461ef0b5c2.png" src="_images/e669e9b01ecf6391c2b6cf6d911cd6b438a72e75b4fecd841b4da6461ef0b5c2.png" />
 </div>
 </div>
-<p>Sepertinya sebagian besar ibu hamil dalam kumpulan data ini sebagian besar memiliki risiko kesehatan yang rendah. Dari 1014 data hasil  observasi, 406 (40%) ibu hamil mempunyai risiko rendah, 336 (33,1%) memiliki risiko menengah, dan 272 (26,8%) memiliki risiko tinggi. Kami akan mengeksplorasi data untuk mendapatkan lebih banyak wawasan dan melihat mengapa ibu hamil memiliki risiko kesehatan yang berbeda. Kami akan mencoba memeriksa setiap variabel yang dapat mempengaruhinya.</p>
+<p>Sebagian besar pasien menderita penyakit hati. Dari 583 data hasil  observasi,  416 pasien (71,4%) menderita penyakit hati dan 167 pasien(28,6%) tidak menderita penyakit hati (liver). Selanjutnya akan dicoba memeriksa setiap variabel yang dapat mempengaruhi.</p>
 </section>
 <section id="tabel-distribusi">
 <h2>Tabel Distribusi<a class="headerlink" href="#tabel-distribusi" title="Link to this heading">#</a></h2>
@@ -1134,10 +1120,10 @@ Note: you may need to restart the kernel to use updated packages.
 <img alt="_images/5afa39c90c927f64709cdf46fa4567ac69c8daab7743b7a865d8ff486c71f368.png" src="_images/5afa39c90c927f64709cdf46fa4567ac69c8daab7743b7a865d8ff486c71f368.png" />
 </div>
 </div>
-<p>Berdasarkan visualisasi tabel distribusi diatas, dapat dilihat bahwa masing-masing fitur memiliki outlier yang dapat diabaikan akan tetapi terdapat outlier yang signifikan dan tidak dapat diabaikan yaitu pada fitur HeartRate.</p>
+<p>Berdasarkan visualisasi tabel distribusi diatas, dapat dilihat bahwa masing-masing fitur memiliki outlier yang dapat diabaikan akan tetapi terdapat outlier yang signifikan dan tidak dapat diabaikan.</p>
 <section id="prediksi-dan-target">
 <h3>Prediksi dan Target<a class="headerlink" href="#prediksi-dan-target" title="Link to this heading">#</a></h3>
-<p>Kami akan menggunakan histogram dengan pemetaan untuk memvisualisasikan distribusi data variabel prediktor berdasarkan variabel target. Selain itu, karena variabel prediktor kita hanya memiliki sedikit nilai unik, kita juga dapat menggunakan tab silang panda untuk melihat nilai detailnya.</p>
+<p>Menggunakan histogram dengan pemetaan untuk memvisualisasikan distribusi data variabel prediktor berdasarkan variabel target. Selain itu, karena variabel prediktor hanya memiliki sedikit nilai unik, juga dapat menggunakan tab silang panda untuk melihat nilai detailnya.</p>
 <ol class="arabic simple">
 <li><p>Age -&gt; Selector</p></li>
 </ol>
@@ -1278,16 +1264,6 @@ Note: you may need to restart the kernel to use updated packages.
 <p>2 rows × 72 columns</p>
 </div></div></div>
 </div>
-<p>Observasi :</p>
-<ul class="simple">
-<li><p>Ibu hamil berusia 24 tahun kebawah sebagian besar mempunyai risiko kesehatan yang rendah.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Risiko kesehatan akan mulai meningkat ketika wanita mulai memasuki umur 25 tahun keatas.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Yang mengejutkan, risiko kesehatan dari wanita hamil diatas 59 tahun mengalami penurunan</p></li>
-</ul>
 <ol class="arabic simple" start="2">
 <li><p>Gender -&gt; Selector</p></li>
 </ol>
@@ -1351,13 +1327,6 @@ Note: you may need to restart the kernel to use updated packages.
 </table>
 </div></div></div>
 </div>
-<p>Observasi :</p>
-<ul class="simple">
-<li><p>Ibu hamil dengan tekanan darah diatas &gt;= 100 mmHg sebagian besar memiliki risiko kesehatan yang rendah.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Semakin tinggi tekanan darah ibu hamil, semakin tinggi pula risiko kesehatannya.</p></li>
-</ul>
 <ol class="arabic simple" start="3">
 <li><p>TB -&gt;Selector</p></li>
 </ol>
@@ -1498,16 +1467,6 @@ Note: you may need to restart the kernel to use updated packages.
 <p>2 rows × 113 columns</p>
 </div></div></div>
 </div>
-<p>Observasi :</p>
-<ul class="simple">
-<li><p>Ibu hamil dengan tekanan darah &lt;= 90 sebagian besar memiliki risiko kesehatan yang rendah.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Semakin tinggi tekanan darah ibu hamil, semakin tinggi pula risiko kesehatannya.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Variabel ini memiliki pola yang hampir sama dengan SystolicBP. Hal ini tidak mengherankan karena keduanya sangat berkorelasi.</p></li>
-</ul>
 <ol class="arabic simple" start="4">
 <li><p>DB -&gt; Selector</p></li>
 </ol>
@@ -1648,13 +1607,6 @@ Note: you may need to restart the kernel to use updated packages.
 <p>2 rows × 80 columns</p>
 </div></div></div>
 </div>
-<p>Observasi :</p>
-<ul class="simple">
-<li><p>Hampir semua ibu hamil yang memiliki kadar glukosa darah &gt;= 8 mempunyai risiko kesehatan yang tinggi.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Namun sebaliknya, yang memiliki kadar glukosa darah &lt; 8 mempunyai risiko kesehatan yang rendah.</p></li>
-</ul>
 <ol class="arabic simple" start="5">
 <li><p>alkaline -&gt; liver_disease</p></li>
 </ol>
@@ -1795,13 +1747,6 @@ Note: you may need to restart the kernel to use updated packages.
 <p>2 rows × 263 columns</p>
 </div></div></div>
 </div>
-<p>Observasi :</p>
-<ul class="simple">
-<li><p>Kebanyakan ibu hamil tampaknya memiliki suhu tubuh 98 F, yang merupakan suhu tubuh normal.</p></li>
-</ul>
-<ul class="simple">
-<li><p>Ibu hamil dengan suhu tubuh &gt;= 100 F, sebagian besar memiliki risiko kesehatan lebih tinggi</p></li>
-</ul>
 <ol class="arabic simple" start="6">
 <li><p>alamine -&gt; liver_disease</p></li>
 </ol>
@@ -2623,13 +2568,6 @@ Note: you may need to restart the kernel to use updated packages.
 <p>69 rows × 2 columns</p>
 </div></div></div>
 </div>
-<p>Observasi :</p>
-<ul class="simple">
-<li><p>Dapat dilihat dari tabel diatas, variabel HeartRate memiliki outlier dengan nilai yang terlihat tidak wajar, yaitu 2 value yang bernilai 7 dari kategori low risk</p></li>
-</ul>
-<ul class="simple">
-<li><p>Risiko kesehatan tampaknya semakin tinggi seiring dengan meningkatnya detak jantung.</p></li>
-</ul>
 </section>
 </section>
 <section id="kualitas-data">
@@ -2663,6 +2601,7 @@ dtype: int64
 </div>
 </div>
 </div>
+<p>Dari pemanggilan fungsi diatas, tertera bahwa ada 4 missing values dari atribut ag_ratio, sekarang coba untuk menampilkan baris data yang memiliki missing values.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main</span><span class="p">[</span><span class="n">df_main</span><span class="p">[</span><span class="s1">&#39;ag_ratio&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()]</span>
@@ -2767,6 +2706,7 @@ dtype: int64
 </table>
 </div></div></div>
 </div>
+<p>Menghapus baris data yang memiliki missing values</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main</span> <span class="o">=</span> <span class="n">df_main</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
@@ -2793,7 +2733,7 @@ dtype: int64
 </div>
 </div>
 </div>
-<p>Bisa dilihat semua colom menunjukan tidak adanya missing value di data ini</p>
+<p>Bisa dilihat semua colom menunjukan tidak adanya missing value setelah dihapus baris data di data ini, dan jumlah baris saat ini adalah 579</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span>
@@ -3004,14 +2944,11 @@ dtype: int64
 <p>579 rows × 12 columns</p>
 </div></div></div>
 </div>
-<p>Karena tidak terdapat missing values dalam data tersebut, kita dapat menganggap data telah bersih sehingga tidak perlu dilakukan inputasi missing values.</p>
-<p>Import library yang dibutuhkan untuk mendeteksi outlier menggunakan perhitungan LOF.</p>
+<p>Karena tidak terdapat missing values dalam data tersebut, dapat dianggap data telah bersih sehingga tidak perlu dilakukan inputasi missing values.</p>
 </section>
 <section id="deteksi-outlier">
 <h3>Deteksi Outlier<a class="headerlink" href="#deteksi-outlier" title="Link to this heading">#</a></h3>
-<p>Lalu, kami melakukan deteksi outlier, untuk memperbaiki kualitas data.</p>
-<p>Menurut referensi yang didapat dari buku “Data Mining : Concept and Technique”:</p>
-<p>Link: <a class="reference external" href="https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf">https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf</a></p>
+<p>Melakukan deteksi outlier untuk memperbaiki kualitas data. Menurut referensi yang didapat dari buku “Data Mining : Concept and Technique”: Link: <a class="reference external" href="https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf">https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf</a></p>
 <p>Local Outlier Factor (LOF) adalah metode deteksi outlier yang didasarkan pada kepadatan lokal suatu titik data dalam kaitannya dengan tetangga terdekatnya. Metode ini bertujuan untuk mengidentifikasi outlier lokal dengan membandingkan kepadatan lokal dari suatu titik dengan kepadatan lokal dari tetangga-tetangganya. Berikut adalah komponen utama dan langkah-langkah perhitungan dalam LOF:</p>
 <section id="k-tetangga-terdekat-k-nearest-neighbors-k-nn">
 <h4>1. K-Tetangga Terdekat (K-Nearest Neighbors, K-NN)<a class="headerlink" href="#k-tetangga-terdekat-k-nearest-neighbors-k-nn" title="Link to this heading">#</a></h4>
@@ -3055,8 +2992,7 @@ LOF_k(o) = \frac{\sum_{o' \in N_k(o)} \frac{lrd_k(o')}{lrd_k(o)}}{|N_k(o)|}
 </div>
 </div>
 </div>
-<p>Data outlier sering kali mempengaruhi model data secara umum sehingga pengaruh dari data outlier tersebut harus dikurangi atau dihilangkan. Hal ini merujuk kepda <a class="reference external" href="https://ejurnal.its.ac.id/index.php/sains_seni/article/download/22520/3642">https://ejurnal.its.ac.id/index.php/sains_seni/article/download/22520/3642</a></p>
-<p>Proses perhitungan LOF untuk mendeteksi adanya outlier dengan 40 tetangga terdekat menggunakan jarak Euclidean (p=2).</p>
+<p>Mengurangi nilai liver disease yang awalnya 1 dan 2, menjadi 0 dan 1. Merubah nilai Male dan Female pada kolom Gender menjadi 1 dan 0 agar mempermudah perhitungan.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main_lof</span> <span class="o">=</span> <span class="n">df_main</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -3298,6 +3234,7 @@ Name: gender, Length: 579, dtype: int64
 <p>579 rows × 12 columns</p>
 </div></div></div>
 </div>
+<p>Data outlier sering kali mempengaruhi model data secara umum sehingga pengaruh dari data outlier tersebut harus dikurangi atau dihilangkan. Hal ini merujuk kepada <a class="reference external" href="https://ejurnal.its.ac.id/index.php/sains_seni/article/download/22520/3642">https://ejurnal.its.ac.id/index.php/sains_seni/article/download/22520/3642</a>. Proses perhitungan LOF untuk mendeteksi adanya outlier dengan 20 tetangga terdekat menggunakan jarak Euclidean (p=2).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columns_for_lof</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -3339,7 +3276,7 @@ Name: LOF_Score, Length: 579, dtype: float64
 </div>
 </div>
 </div>
-<p>Menampilkan beberapa data yang teridentifikasi sebagai outlier (dengan skor LOF negatif).</p>
+<p>Setelah dihapus data Menampilkan beberapa data yang teridentifikasi sebagai outlier (dengan skor LOF negatif).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main_lof</span><span class="p">[</span><span class="s1">&#39;Outlier&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">outlier_scores</span>
@@ -3406,7 +3343,7 @@ Name: LOF_Score, Length: 579, dtype: float64
 </div>
 </div>
 </div>
-<p>Berdasarkan output di atas, terlihat bahwa terdapat 2 data dengan nilai LOF yang sangat jauh yaitu data ID 499 dan ID 908.</p>
+<p>Berdasarkan output di atas, terlihat bahwa terdapat 2 data dengan nilai LOF yang sangat jauh yaitu data ID 135 dan ID 117.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_main_lof</span>
@@ -3643,7 +3580,7 @@ Name: LOF_Score, Length: 579, dtype: float64
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menampilkan data dengan ID 499 dan 908</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menampilkan data dengan ID 117 dan 135</span>
 <span class="n">data_outlier</span> <span class="o">=</span> <span class="n">df_main_lof</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df_main_lof</span><span class="p">[</span><span class="s2">&quot;ID&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="mi">135</span><span class="p">,</span> <span class="mi">117</span><span class="p">])]</span>
 
 <span class="n">data_outlier</span>
@@ -3730,10 +3667,10 @@ Name: LOF_Score, Length: 579, dtype: float64
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="data-preprocessing">
 <h1>DATA PREPROCESSING<a class="headerlink" href="#data-preprocessing" title="Link to this heading">#</a></h1>
-<p>Pada data preprocessing kami akan memperbaiki kualitas data karena terdeteksi adanya outlier pada data.</p>
+<p>Pada data preprocessing akan memperbaiki kualitas data karena terdeteksi adanya outlier pada data.</p>
 <section id="mengatasi-outlier">
 <h2>Mengatasi Outlier<a class="headerlink" href="#mengatasi-outlier" title="Link to this heading">#</a></h2>
-<p>Heart rate istirahat normal untuk orang dewasa berkisar antara 60 hingga 100 bpm (beats per Minute), terlebih heart rate istirahat terendah yang tercatat dalam sejarah manusia adalah 25 bpm. Oleh karena itu, 2 data ini akan dihapus yang memiliki nilai heart rate 7 karena nilai tersebut tidak masuk akal, dan kemungkinan besar merupakan kesalahan input.</p>
+<p>2 data dengan ID 135 dan 117 akan dihapus karena memiliki nilai outlier yang sangat tinggi melebihi data lain yang hanya berada pada kisaran 2</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menghapus baris dengan ID 117 dan 135 dari df_main_lof</span>
@@ -3981,8 +3918,16 @@ Name: LOF_Score, Length: 579, dtype: float64
 <h1>DATA MODELLING<a class="headerlink" href="#data-modelling" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_train_model</span> <span class="o">=</span> <span class="n">df_main_lof</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;ID&#39;</span><span class="p">,</span><span class="s1">&#39;liver_disease&#39;</span><span class="p">,</span><span class="s1">&#39;LOF_Score&#39;</span><span class="p">])</span>
-<span class="n">Y_train_model</span> <span class="o">=</span> <span class="n">df_main_lof</span><span class="p">[</span><span class="s1">&#39;liver_disease&#39;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">features</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">columns</span>
+<span class="n">target</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_train_model</span> <span class="o">=</span> <span class="n">df_main_lof</span><span class="p">[</span><span class="n">features</span><span class="p">]</span>
+<span class="n">Y_train_model</span> <span class="o">=</span> <span class="n">df_main_lof</span><span class="p">[</span><span class="n">target</span><span class="p">]</span>
 
 <span class="n">X_train_model</span>
 </pre></div>
@@ -4017,7 +3962,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <th>total_protein</th>
       <th>albumin</th>
       <th>ag_ratio</th>
-      <th>Outlier</th>
     </tr>
   </thead>
   <tbody>
@@ -4033,7 +3977,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>6.8</td>
       <td>3.3</td>
       <td>0.90</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>1</th>
@@ -4047,7 +3990,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>7.5</td>
       <td>3.2</td>
       <td>0.74</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
@@ -4061,7 +4003,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>7.0</td>
       <td>3.3</td>
       <td>0.89</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>3</th>
@@ -4075,7 +4016,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>4</th>
@@ -4089,11 +4029,9 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>7.3</td>
       <td>2.4</td>
       <td>0.40</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -4117,7 +4055,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>5.9</td>
       <td>1.6</td>
       <td>0.37</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>573</th>
@@ -4131,7 +4068,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>6.0</td>
       <td>3.2</td>
       <td>1.10</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>574</th>
@@ -4145,7 +4081,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>6.4</td>
       <td>3.2</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>575</th>
@@ -4159,7 +4094,6 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>576</th>
@@ -4173,11 +4107,10 @@ Name: LOF_Score, Length: 579, dtype: float64
       <td>7.3</td>
       <td>4.4</td>
       <td>1.50</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>
-<p>577 rows × 11 columns</p>
+<p>577 rows × 10 columns</p>
 </div></div></div>
 </div>
 <div class="cell docutils container">
@@ -4187,27 +4120,82 @@ Name: LOF_Score, Length: 579, dtype: float64
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0      1
-1      1
-2      1
-3      1
-4      1
-      ..
-572    2
-573    1
-574    1
-575    1
-576    2
-Name: liver_disease, Length: 577, dtype: int64
-</pre></div>
-</div>
-</div>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>liver_disease</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>572</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>573</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>574</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>575</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>576</th>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+<p>577 rows × 1 columns</p>
+</div></div></div>
 </div>
 <section id="apa-itu-klasifikasi-data">
 <h2>Apa itu Klasifikasi data<a class="headerlink" href="#apa-itu-klasifikasi-data" title="Link to this heading">#</a></h2>
 <p>Menurut referensi pada buku berjudul  “Data Mining Concept and Techniques” edisi ketiga pada link : link : The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann</p>
 <p>“Bagaimana cara kerja klasifikasi?” Klasifikasi data merupakan proses dua langkah, yang terdiri dari langkah pembelajaran (di mana model klasifikasi dibangun) dan langkah klasifikasi (di mana model digunakan untuk memprediksi label kelas untuk data tertentu). Prosesnya ditunjukkan untuk data pengajuan pinjaman</p>
-<img src="image-20240529-205207.png" width="" align="" /><p>Pada bagian ini akan dilakukan perhitungan pada data testing menggunakan model Gaussian Naive Bayes dan KNN</p>
+<img src="image-20240628-030700.png" width="" align="" /><p>Pada bagian ini akan dilakukan perhitungan pada data testing menggunakan model Gaussian Naive Bayes dan KNN</p>
 <p>Konsep Gaussian Naive Bayes</p>
 <p>menurut referensi yang didapat dari buku “Data Mining : Concept and Technique”: Link:<a class="reference external" href="https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf">https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf</a></p>
 <p>menjelaskan bahwa Naïve Bayes adalah teknik klasifikasi statistik berdasarkan Teorema Bayes. Ini adalah salah satu algoritma pembelajaran terawasi yang paling sederhana. Pengklasifikasi Naïve Bayes adalah algoritma yang cepat, akurat, dan andal. Pengklasifikasi Naïve Bayes memiliki akurasi dan kecepatan tinggi pada kumpulan data besar.</p>
@@ -4219,7 +4207,7 @@ Name: liver_disease, Length: 577, dtype: int64
 <li><p>Bayes: Disebut Bayes karena bergantung pada prinsip Teorema Bayes.</p></li>
 </ul>
 <p>rumus dari naive bayes :</p>
-<img src="Img/rumus naive bayes.png" width="actual" align="" /><ul class="simple">
+<img src="image-20240628-030806.png" width="" align="" /><ul class="simple">
 <li><p>P(H|X) =&gt; probabilitas hipotesis H jika diberi data X. Ini dikenal sebagai probabilitas posterior.</p></li>
 </ul>
 <ul class="simple">
@@ -4481,21 +4469,6 @@ Name: liver_disease, Length: 577, dtype: int64
 <p>577 rows × 14 columns</p>
 </div></div></div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">features</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">X_train_model</span><span class="p">)</span><span class="o">.</span><span class="n">columns</span>
-<span class="n">target</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">Y_train_model</span><span class="p">)</span><span class="o">.</span><span class="n">columns</span>
-
-<span class="n">target</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Index([&#39;liver_disease&#39;], dtype=&#39;object&#39;)
-</pre></div>
-</div>
-</div>
-</div>
 <p>Melakukan pemisahan dataset menjadi dua bagian: set data training dan testing sebesar 20% untuk data testing dan 80% untuk data training. X_train untuk data training(features), X_test untuk data testing(features), y_train untuk data training(targets), y_test untuk data testing(targets).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -4533,7 +4506,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <th>total_protein</th>
       <th>albumin</th>
       <th>ag_ratio</th>
-      <th>Outlier</th>
     </tr>
   </thead>
   <tbody>
@@ -4549,7 +4521,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>3.9</td>
       <td>1.9</td>
       <td>0.95</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>425</th>
@@ -4563,7 +4534,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>6.7</td>
       <td>2.9</td>
       <td>0.76</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>123</th>
@@ -4577,7 +4547,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>6.9</td>
       <td>4.1</td>
       <td>1.40</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>366</th>
@@ -4591,7 +4560,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>8.7</td>
       <td>5.5</td>
       <td>1.70</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>435</th>
@@ -4605,11 +4573,9 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>4.1</td>
       <td>1.8</td>
       <td>0.70</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -4633,7 +4599,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>7.0</td>
       <td>3.5</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>3</th>
@@ -4647,7 +4612,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>248</th>
@@ -4661,7 +4625,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>7.0</td>
       <td>3.9</td>
       <td>1.20</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>311</th>
@@ -4675,7 +4638,6 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>524</th>
@@ -4689,11 +4651,10 @@ Name: liver_disease, Length: 577, dtype: int64
       <td>7.0</td>
       <td>3.8</td>
       <td>1.10</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>
-<p>116 rows × 11 columns</p>
+<p>116 rows × 10 columns</p>
 </div></div></div>
 </div>
 <p>Mengambil irisan x_train dan y_train dari df_main_gnb berdasarkan kolom ID dan disimpan ke dalam file excel dengan nama main_train.csv</p>
@@ -4727,8 +4688,8 @@ Name: liver_disease, Length: 577, dtype: int64
 <p>Menurut referensi pada buku berjudul  “Data Mining Concept and Techniques” edisi ketiga pada link : link : The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann</p>
 <div class="math notranslate nohighlight">
 \[\Huge accuracy = \frac{TP + TN}{P + N}\]</div>
-<p>maka kita bisa menggunakan confusion matrix seperti berikut</p>
-<img src="image-20240529-211947.png" width="" align="" /><img src="image-20240529-212506.png" width="" align="" /><p>Maka : kita bisa menghitung akurasi dari suatu model dengan menentukan P’ dan N’ , dimana Tuple postifif ditambah Tuple negatif kita bagi dengan total Tuple baru kita mendapat akurasi model</p>
+<p>maka bisa menggunakan confusion matrix seperti berikut</p>
+<img src="image-20240628-031745.png" width="" align="" /><img src="image-20240628-031817.png" width="" align="" /><p>Maka : bisa dihitung akurasi dari suatu model dengan menentukan P’ dan N’ , dimana Tuple postifif ditambah Tuple negatif kita bagi dengan total Tuple baru kita mendapat akurasi model.</p>
 <p>Membuat model gaussian naive bayes dengan data training, setelah membuat model berdasarkan data training, lalu memprediksi data testing menggunakan model yang sebelumnya sudah dibuat menggunakan data training.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -4742,10 +4703,26 @@ Name: liver_disease, Length: 577, dtype: int64
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 56.90%
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 58.62%
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:1143: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
@@ -4761,14 +4738,8 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
-C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(pd_dtype):
-C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
-C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(pd_dtype):
-C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
@@ -4777,11 +4748,11 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
 </div>
 </div>
 </div>
-<p>Berdasarkan nilai diatas tingkat akurasinya 63,05%. Ini menunjukkan model tersebut dapat memprediksi dengan benar sekitar 63,05% kasus yang diberikan.</p>
-<p>Mencoba memprediksi menggunakan model gaussian yang telah dibuat sebelumnya dengan data input 30, 140, 85, 7, 98, 70 yang berasal dari data id ke-3.</p>
+<p>Berdasarkan nilai diatas tingkat akurasinya 56.90%. Ini menunjukkan model tersebut dapat memprediksi dengan benar sekitar 56,90% kasus yang diberikan.</p>
+<p>Mencoba memprediksi menggunakan model gaussian yang telah dibuat sebelumnya dengan data input 65,0,0.7,0.1,187,16,18,6.8,3.3,0.90 yang berasal dari data id ke-0.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hasil Prediksi Class: &#39;</span><span class="p">,</span> <span class="n">gaussian_model</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">65</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.7</span><span class="p">,</span><span class="mf">0.1</span><span class="p">,</span><span class="mi">187</span><span class="p">,</span><span class="mi">16</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mf">6.8</span><span class="p">,</span><span class="mf">3.3</span><span class="p">,</span><span class="mf">0.90</span><span class="p">,</span><span class="mi">1</span><span class="p">]]))</span> 
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hasil Prediksi Class: &#39;</span><span class="p">,</span> <span class="n">gaussian_model</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">65</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.7</span><span class="p">,</span><span class="mf">0.1</span><span class="p">,</span><span class="mi">187</span><span class="p">,</span><span class="mi">16</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mf">6.8</span><span class="p">,</span><span class="mf">3.3</span><span class="p">,</span><span class="mf">0.90</span><span class="p">]]))</span> 
 </pre></div>
 </div>
 </div>
@@ -5009,12 +4980,6 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
       <td>2</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>111</td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
       <th>23</th>
       <td>130</td>
       <td>1</td>
@@ -5205,12 +5170,6 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
       <td>448</td>
       <td>1</td>
       <td>2</td>
-    </tr>
-    <tr>
-      <th>93</th>
-      <td>467</td>
-      <td>2</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>99</th>
@@ -5526,15 +5485,8 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi KNN: 67.24%
-</pre></div>
-</div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
-C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(pd_dtype):
-C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
@@ -5545,27 +5497,44 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\neighbors\_classification.py:215: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:767: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if not hasattr(array, &quot;sparse&quot;) and array.dtypes.apply(is_sparse).any():
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:605: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype):
 C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:614: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
   if is_sparse(pd_dtype) or not is_extension_array_dtype(pd_dtype):
 </pre></div>
 </div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi KNN: 67.24%
+</pre></div>
 </div>
 </div>
-<p>Berdasarkan nilai diatas tingkat akurasinya 83,74%. Ini menunjukkan model tersebut dapat memprediksi dengan benar sekitar 83,74% kasus yang diberikan.</p>
-<p>Mencoba memprediksi menggunakan model K-Nearest Neighbors (KNN) yang telah dibuat sebelumnya dengan data input 30, 140, 85, 7, 98, 70 yang berasal dari data id ke-3.</p>
+</div>
+<p>Berdasarkan nilai diatas tingkat akurasinya 67.24%. Ini menunjukkan model tersebut dapat memprediksi dengan benar sekitar 67.24% kasus yang diberikan.</p>
+<p>Mencoba memprediksi menggunakan model K-Nearest Neighbors (KNN) yang telah dibuat sebelumnya dengan data input 65,0,0.7,0.1,187,16,18,6.8,3.3,0.90 yang berasal dari data id ke-0.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hasil Prediksi Class KNN: &#39;</span><span class="p">,</span> <span class="n">knn_model</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">65</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">187</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mf">6.8</span><span class="p">,</span> <span class="mf">3.3</span><span class="p">,</span> <span class="mf">0.90</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]))</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hasil Prediksi Class KNN: &#39;</span><span class="p">,</span> <span class="n">knn_model</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">65</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">187</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mf">6.8</span><span class="p">,</span> <span class="mf">3.3</span><span class="p">,</span> <span class="mf">0.90</span><span class="p">]]))</span>
 </pre></div>
 </div>
 </div>
@@ -5964,8 +5933,7 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
 </table>
 </div></div></div>
 </div>
-<p>Mencetak akurasi model Gaussian Naive Bayes dan KNN
-, lalu menentukan model mana yang lebih baik berdasarkan akurasi</p>
+<p>Mencetak akurasi model Gaussian Naive Bayes dan KNN, lalu menentukan model mana yang lebih baik berdasarkan akurasi</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Compare with Gaussian Naive Bayes Model</span>
@@ -5980,7 +5948,7 @@ C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi Gaussian Naive Bayes: 56.90%
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi Gaussian Naive Bayes: 58.62%
 Akurasi K-Nearest Neighbors: 67.24%
 Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik untuk deployment.
 </pre></div>
@@ -6003,6 +5971,14 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
 <span class="n">c2</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="s1">&#39;distance&#39;</span><span class="p">)</span>
 <span class="n">c2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="n">p2_train</span> <span class="o">=</span> <span class="n">c2</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\neighbors\_classification.py:215: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\neighbors\_classification.py:215: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
 </pre></div>
 </div>
 </div>
@@ -6146,7 +6122,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <th>total_protein</th>
       <th>albumin</th>
       <th>ag_ratio</th>
-      <th>Outlier</th>
     </tr>
   </thead>
   <tbody>
@@ -6162,7 +6137,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>3.9</td>
       <td>1.9</td>
       <td>0.95</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>425</th>
@@ -6176,7 +6150,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>6.7</td>
       <td>2.9</td>
       <td>0.76</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>123</th>
@@ -6190,7 +6163,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>6.9</td>
       <td>4.1</td>
       <td>1.40</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>366</th>
@@ -6204,7 +6176,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>8.7</td>
       <td>5.5</td>
       <td>1.70</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>435</th>
@@ -6218,11 +6189,9 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>4.1</td>
       <td>1.8</td>
       <td>0.70</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -6246,7 +6215,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>7.0</td>
       <td>3.5</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>3</th>
@@ -6260,7 +6228,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>248</th>
@@ -6274,7 +6241,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>7.0</td>
       <td>3.9</td>
       <td>1.20</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>311</th>
@@ -6288,7 +6254,6 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>524</th>
@@ -6302,11 +6267,10 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
       <td>7.0</td>
       <td>3.8</td>
       <td>1.10</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>
-<p>116 rows × 11 columns</p>
+<p>116 rows × 10 columns</p>
 </div></div></div>
 </div>
 <div class="cell docutils container">
@@ -6342,9 +6306,12 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
 </div>
 </div>
 <div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py:1143: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+</pre></div>
+</div>
 <div class="output text_html"><style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>GaussianNB()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">GaussianNB</label><div class="sk-toggleable__content"><pre>GaussianNB()</pre></div></div></div></div></div></div></div>
 </div>
-<p>High level = 0, Low level = 1, mid level = 2</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p1_test</span> <span class="o">=</span> <span class="n">c1</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
@@ -6415,8 +6382,14 @@ Model K-Nearest Neighbors (KNN) memiliki akurasi lebih tinggi dan lebih baik unt
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: mlxtend in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (0.23.1)
-Requirement already satisfied: scipy&gt;=1.2.1 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from mlxtend) (1.11.2)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: mlxtend in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (0.23.1)Note: you may need to restart the kernel to use updated packages.
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[notice] A new release of pip is available: 24.0 -&gt; 24.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: scipy&gt;=1.2.1 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from mlxtend) (1.11.2)
 Requirement already satisfied: numpy&gt;=1.16.2 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from mlxtend) (1.26.0)
 Requirement already satisfied: pandas&gt;=0.24.2 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from mlxtend) (2.1.1)
 Requirement already satisfied: scikit-learn&gt;=1.0.2 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from mlxtend) (1.2.2)
@@ -6434,11 +6407,6 @@ Requirement already satisfied: pytz&gt;=2020.1 in c:\users\acer\appdata\local\pr
 Requirement already satisfied: tzdata&gt;=2022.1 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from pandas&gt;=0.24.2-&gt;mlxtend) (2023.3)
 Requirement already satisfied: threadpoolctl&gt;=2.0.0 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from scikit-learn&gt;=1.0.2-&gt;mlxtend) (3.2.0)
 Requirement already satisfied: six&gt;=1.5 in c:\users\acer\appdata\local\programs\python\python311\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib&gt;=3.0.0-&gt;mlxtend) (1.16.0)
-Note: you may need to restart the kernel to use updated packages.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[notice] A new release of pip is available: 24.0 -&gt; 24.1.1
-[notice] To update, run: python.exe -m pip install --upgrade pip
 </pre></div>
 </div>
 </div>
@@ -6478,7 +6446,6 @@ Note: you may need to restart the kernel to use updated packages.
       <th>total_protein</th>
       <th>albumin</th>
       <th>ag_ratio</th>
-      <th>Outlier</th>
     </tr>
   </thead>
   <tbody>
@@ -6494,7 +6461,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>6.8</td>
       <td>3.3</td>
       <td>0.90</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>1</th>
@@ -6508,7 +6474,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>7.5</td>
       <td>3.2</td>
       <td>0.74</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
@@ -6522,7 +6487,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>7.0</td>
       <td>3.3</td>
       <td>0.89</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>3</th>
@@ -6536,7 +6500,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>4</th>
@@ -6550,11 +6513,9 @@ Note: you may need to restart the kernel to use updated packages.
       <td>7.3</td>
       <td>2.4</td>
       <td>0.40</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>...</th>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -6578,7 +6539,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>5.9</td>
       <td>1.6</td>
       <td>0.37</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>573</th>
@@ -6592,7 +6552,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>6.0</td>
       <td>3.2</td>
       <td>1.10</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>574</th>
@@ -6606,7 +6565,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>6.4</td>
       <td>3.2</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>575</th>
@@ -6620,7 +6578,6 @@ Note: you may need to restart the kernel to use updated packages.
       <td>6.8</td>
       <td>3.4</td>
       <td>1.00</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>576</th>
@@ -6634,11 +6591,10 @@ Note: you may need to restart the kernel to use updated packages.
       <td>7.3</td>
       <td>4.4</td>
       <td>1.50</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>
-<p>577 rows × 11 columns</p>
+<p>577 rows × 10 columns</p>
 </div></div></div>
 </div>
 <div class="cell docutils container">
@@ -6684,42 +6640,49 @@ Note: you may need to restart the kernel to use updated packages.
               <span class="o">%</span> <span class="p">(</span><span class="n">scores</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="n">scores</span><span class="o">.</span><span class="n">std</span><span class="p">(),</span> <span class="n">label</span><span class="p">))</span>
     <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error for </span><span class="si">{</span><span class="n">label</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-
-<span class="c1"># Melatih random forest pada data training</span>
-<span class="k">try</span><span class="p">:</span>
-    <span class="n">clf2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
-    <span class="c1"># Membuat prediksi pada data test</span>
-    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">clf2</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-    <span class="c1"># Menghitung akurasi pada set test</span>
-    <span class="n">accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Accuracy of random forest on test set: </span><span class="si">{</span><span class="n">accuracy</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
-<span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error during fitting or predicting with random forest: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3-fold cross validation:
-
-Accuracy: 0.71 (+/- 0.05) [KNN]
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy: 0.72 (+/- 0.04) [Random Forest]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy: 0.71 (+/- 0.05) [KNN]
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy: 0.73 (+/- 0.03) [Random Forest]
 Accuracy: 0.54 (+/- 0.01) [Naive Bayes]
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy: 0.70 (+/- 0.03) [StackingClassifier]
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy of random forest on test set: 0.6896551724137931
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy: 0.71 (+/- 0.04) [StackingClassifier]
 </pre></div>
 </div>
 </div>
 </div>
-<p>Test Model :</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hasil Prediksi Class: &#39;</span><span class="p">,</span> <span class="n">clf2</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">65</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">187</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mf">6.8</span><span class="p">,</span> <span class="mf">3.3</span><span class="p">,</span> <span class="mf">0.90</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]))</span> 
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="n">sclf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="c1"># Membuat prediksi pada data test</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">sclf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="c1"># Menghitung akurasi pada set test</span>
+    <span class="n">accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Accuracy of stacking classifier on test set: </span><span class="si">{</span><span class="n">accuracy</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error during fitting or predicting with stacking classifier: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy of stacking classifier on test set: 0.7068965517241379
+</pre></div>
+</div>
+</div>
+</div>
+<p>Test Model:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hasil Prediksi Class: &#39;</span><span class="p">,</span> <span class="n">sclf</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">65</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">187</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mf">6.8</span><span class="p">,</span> <span class="mf">3.3</span><span class="p">,</span> <span class="mf">0.90</span><span class="p">]]))</span> 
 </pre></div>
 </div>
 </div>
@@ -6729,14 +6692,80 @@ Accuracy: 0.54 (+/- 0.01) [Naive Bayes]
 </div>
 </div>
 </div>
-<p>Dump Model</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
+
+<span class="c1"># Menyimpan model ke file .sav menggunakan pickle</span>
+<span class="n">model_filename</span> <span class="o">=</span> <span class="s1">&#39;stacking.sav&#39;</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">model_filename</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">model_file</span><span class="p">:</span>
+    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">sclf</span><span class="p">,</span> <span class="n">model_file</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Model saved to </span><span class="si">{</span><span class="n">model_filename</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Model saved to stacking.sav
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">stacking_load</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s1">&#39;stacking.sav&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">stacking_pred</span> <span class="o">=</span> <span class="n">stacking_load</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">62</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">10.9</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="mi">699</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mf">7.5</span><span class="p">,</span> <span class="mf">3.2</span><span class="p">,</span> <span class="mf">0.74</span><span class="p">]])</span>
+<span class="n">stacking_pred</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([1], dtype=int64)
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="membuat-model-random-forest">
+<h2>Membuat Model Random Forest<a class="headerlink" href="#membuat-model-random-forest" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">random_forest</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">11</span><span class="p">)</span>
+
+<span class="c1"># Melatih random forest pada data training</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">random_forest</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="c1"># Membuat prediksi pada data test</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">random_forest</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="c1"># Menghitung akurasi pada set test</span>
+    <span class="n">accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Accuracy of random forest on test set: </span><span class="si">{</span><span class="n">accuracy</span><span class="si">}</span><span class="s1">&#39;</span>
+    <span class="p">)</span>
+<span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error during fitting or predicting with random forest: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Accuracy of random forest on test set: 0.6810344827586207
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
+
 <span class="c1"># Menyimpan model ke file .sav menggunakan pickle</span>
 <span class="n">model_filename</span> <span class="o">=</span> <span class="s1">&#39;rf.sav&#39;</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">model_filename</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">model_file</span><span class="p">:</span>
-    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">clf2</span><span class="p">,</span> <span class="n">model_file</span><span class="p">)</span>
+    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">random_forest</span><span class="p">,</span> <span class="n">model_file</span><span class="p">)</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Model saved to </span><span class="si">{</span><span class="n">model_filename</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
@@ -6757,7 +6786,7 @@ Accuracy: 0.54 (+/- 0.01) [Naive Bayes]
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rf_pred</span> <span class="o">=</span> <span class="n">rf_load</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">62</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">10.9</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="mi">699</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mf">7.5</span><span class="p">,</span> <span class="mf">3.2</span><span class="p">,</span> <span class="mf">0.74</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rf_pred</span> <span class="o">=</span> <span class="n">rf_load</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">62</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">10.9</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="mi">699</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mf">7.5</span><span class="p">,</span> <span class="mf">3.2</span><span class="p">,</span> <span class="mf">0.74</span><span class="p">]])</span>
 <span class="n">rf_pred</span>
 </pre></div>
 </div>
@@ -6858,26 +6887,38 @@ n_estimators: 50, Accuracy: 0.6896551724137931
 </div>
 </section>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="kesimpulan">
-<h1>KESIMPULAN<a class="headerlink" href="#kesimpulan" title="Link to this heading">#</a></h1>
-<p>Setelah melakukan analisis terhadap dataset tersebut, dapat disimpulkan bahwa ibu yang memiliki kadar glukosa darah tinggi cenderung memiliki risiko kesehatan yang tinggi. BS juga memiliki korelasi kuat dengan Age, Tekanan Darah Sistolik, dan Tekanan Darah Diastolik.
-Usia juga menjadi variabel penting, dimana risiko kesehatan mulai meningkat setelah usia 25 tahun.
-SystolicBP dan DistolicBP memiliki hubungan yang kuat.
-BodyTemp tidak memberikan banyak informasi tetapi sebagian besar ibu di sini memiliki suhu 98F, ibu di atas suhu tersebut cenderung memiliki risiko lebih tinggi.</p>
-<ul class="simple">
-<li><p>Model dapat memprediksi dengan benar sekitar 63,05% kasus yang diberikan dengan Naive Bayes</p></li>
-</ul>
-<ul class="simple">
-<li><p>Model dapat memprediksi dengan benar sekitar 83,74% kasus yang diberikan dengan KNN</p></li>
-</ul>
-<ul class="simple">
-<li><p>Model dapat memprediksi dengan benar sekitar 86,01% kasus yang diberikan dengan Ensemble Learning Stacking dengan library</p></li>
-</ul>
+<section class="tex2jax_ignore mathjax_ignore" id="deployment">
+<h1>DEPLOYMENT<a class="headerlink" href="#deployment" title="Link to this heading">#</a></h1>
+<p>Link Menuju Website : <a class="reference external" href="https://nuriz.pythonanywhere.com/">https://nuriz.pythonanywhere.com/</a></p>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="keputusan">
-<h1>Keputusan<a class="headerlink" href="#keputusan" title="Link to this heading">#</a></h1>
-<p>Berdasarkan Analisis Kami akan menggunakan Model dari Ensemble Learning Stacking dengan menggunakan Library sebagai Model Classifier untuk Deployement aplikasi</p>
-<a style='text-decoration:none;line-height:16px;display:flex;color:#5B5B62;padding:10px;justify-content:end;' href='https://deepnote.com?utm_source=created-in-deepnote-cell&projectId=8580c980-9951-40c3-a954-04eac19e4351' target="_blank">
+<section class="tex2jax_ignore mathjax_ignore" id="evaluasi">
+<h1>EVALUASI<a class="headerlink" href="#evaluasi" title="Link to this heading">#</a></h1>
+<p>Setelah melakukan analisis data, dapat disimpulkan bahwa model Ensemble Learning Stacking Menggunakan Library Sklearn memiliki akurasi tertinggi yaitu 70.69% dibandingkan dengan model Ensemble Learning Stacking Menggunakan Library Sklearn. Berikut adalah perbandingan akurasi dari model-model yang telah dibuat:</p>
+<ul class="simple">
+<li><p>Gaussian Naive Bayes: 58.62%%</p></li>
+</ul>
+<ul class="simple">
+<li><p>K-Nearest Neighbors (KNN): 67.24%%</p></li>
+</ul>
+<ul class="simple">
+<li><p>Model Classifier dengan Konsep Ensemble Learning Stacking: 66.38%</p></li>
+</ul>
+<ul class="simple">
+<li><p>Ensemble Learning Stacking Menggunakan Library Sklearn: 70.69%</p></li>
+</ul>
+<ul class="simple">
+<li><p>Random Forest Classifier: 68.10%</p></li>
+</ul>
+<ul class="simple">
+<li><p>Ensemble Bagging Classifier: 68.96%</p></li>
+</ul>
+<p>Berdasarkan hasil tersebut, dapat disimpulkan bahwa model Ensemble Learning Stacking Menggunakan Library Sklearn adalah model terbaik untuk memprediksi tingkat obesitas seseorang berdasarkan atribut yang ada. Oleh karena itu, kita dapat menggunakan model Ensemble Learning Stacking Menggunakan Library Sklearn untuk membuat aplikasi yang dapat memprediksi tingkat obesitas seseorang berdasarkan atribut yang ada.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="implementasi">
+<h1>IMPLEMENTASI<a class="headerlink" href="#implementasi" title="Link to this heading">#</a></h1>
+<p>Implementasi model Random Forest Classifier yang telah dibuat sebelumnya dapat dilakukan dengan membuat aplikasi berbasis web yang dapat memprediksi tingkat obesitas seseorang berdasarkan atribut yang ada.</p>
+<p>Aplikasi tersebut dapat diakses melalui link berikut: <a class="reference external" href="http://estimationofobesitylevels.pythonanywhere.com/">http://estimationofobesitylevels.pythonanywhere.com/</a></p>
+<a style='text-decoration:none;line-height:16px;display:flex;color:#5B5B62;padding:10px;justify-content:end;' href='https://deepnote.com?utm_source=created-in-deepnote-cell&projectId=6a17519b-db04-44a0-b917-1c577ec69750' target="_blank">
 <img alt='Created in deepnote.com' style='display:inline;max-height:16px;margin:0px;margin-right:7.5px;' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODBweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODAgODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCAzPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkxhbmRpbmciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzUuMDAwMDAwLCAtNzkuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjM1LjAwMDAwMCwgNzkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yMCIgZmlsbD0iIzAyNjVCNCIgcG9pbnRzPSIyLjM3NjIzNzYyIDgwIDM4LjA0NzY2NjcgODAgNTcuODIxNzgyMiA3My44MDU3NTkyIDU3LjgyMTc4MjIgMzIuNzU5MjczOSAzOS4xNDAyMjc4IDMxLjY4MzE2ODMiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNS4wMDc3MTgsODAgQzQyLjkwNjIwMDcsNzYuNDU0OTM1OCA0Ny41NjQ5MTY3LDcxLjU0MjI2NzEgNDguOTgzODY2LDY1LjI2MTk5MzkgQzUxLjExMjI4OTksNTUuODQxNTg0MiA0MS42NzcxNzk1LDQ5LjIxMjIyODQgMjUuNjIzOTg0Niw0OS4yMTIyMjg0IEMyNS40ODQ5Mjg5LDQ5LjEyNjg0NDggMjkuODI2MTI5Niw0My4yODM4MjQ4IDM4LjY0NzU4NjksMzEuNjgzMTY4MyBMNzIuODcxMjg3MSwzMi41NTQ0MjUgTDY1LjI4MDk3Myw2Ny42NzYzNDIxIEw1MS4xMTIyODk5LDc3LjM3NjE0NCBMMzUuMDA3NzE4LDgwIFoiIGlkPSJQYXRoLTIyIiBmaWxsPSIjMDAyODY4Ij48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCwzNy43MzA0NDA1IEwyNy4xMTQ1MzcsMC4yNTcxMTE0MzYgQzYyLjM3MTUxMjMsLTEuOTkwNzE3MDEgODAsMTAuNTAwMzkyNyA4MCwzNy43MzA0NDA1IEM4MCw2NC45NjA0ODgyIDY0Ljc3NjUwMzgsNzkuMDUwMzQxNCAzNC4zMjk1MTEzLDgwIEM0Ny4wNTUzNDg5LDc3LjU2NzA4MDggNTMuNDE4MjY3Nyw3MC4zMTM2MTAzIDUzLjQxODI2NzcsNTguMjM5NTg4NSBDNTMuNDE4MjY3Nyw0MC4xMjg1NTU3IDM2LjMwMzk1NDQsMzcuNzMwNDQwNSAyNS4yMjc0MTcsMzcuNzMwNDQwNSBDMTcuODQzMDU4NiwzNy43MzA0NDA1IDkuNDMzOTE5NjYsMzcuNzMwNDQwNSAwLDM3LjczMDQ0MDUgWiIgaWQ9IlBhdGgtMTkiIGZpbGw9IiMzNzkzRUYiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+' > </img>
 Created in <span style='font-weight:600;margin-left:4px;'>Deepnote</span></a></section>
 
@@ -6936,9 +6977,8 @@ Created in <span style='font-weight:600;margin-left:4px;'>Deepnote</span></a></s
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">DEPLOYMENT</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#indian-liver-patient-dataset">INDIAN LIVER PATIENT DATASET</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati">TUJUAN ANALISIS : MENENTUKAN APAKAH PASIEN MENDERITA PENYAKIT HATI</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">INDIAN LIVER PATIENT DATASET</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-menentukan-apakah-pasien-menderita-penyakit-hati-liver">TUJUAN ANALISIS : MENENTUKAN APAKAH PASIEN MENDERITA PENYAKIT HATI (LIVER)</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-understanding">DATA UNDERSTANDING</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-data-from-web-to-dataframe">Collecting data from web to dataframe</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#importing-data-from-api-to-dataframe">Importing data from API to dataframe</a></li>
@@ -6970,11 +7010,13 @@ Created in <span style='font-weight:600;margin-left:4px;'>Deepnote</span></a></s
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-k-nearest-neighbors-knn-dengan-code-python">Membuat Model K-Nearest Neighbors (KNN) dengan Code Python</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-classifier-dengan-konsep-ensemble-learning-stacking">Membuat Model Classifier dengan Konsep Ensemble Learning Stacking</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ensemble-learning-stacking-menggunakan-library-sklearn">Ensemble Learning Stacking Menggunakan Library Sklearn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-random-forest">Membuat Model Random Forest</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model-ensemble-bagging-classifier">Membuat Model Ensemble Bagging Classifier</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#kesimpulan">KESIMPULAN</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#keputusan">Keputusan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#deployment">DEPLOYMENT</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluasi">EVALUASI</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#implementasi">IMPLEMENTASI</a></li>
 </ul>
 
   </nav></div>
